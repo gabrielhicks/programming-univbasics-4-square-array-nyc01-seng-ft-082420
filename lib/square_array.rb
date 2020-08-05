@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  length = array.length
+  new_array = []
+  
+  while new_array.length < length do |index|
+    new_array.push(array[index]**2)
+  end
+  
+  new_array
 end
